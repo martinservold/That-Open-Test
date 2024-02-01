@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "me-ewebinar-sharepoint-viewer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/meEwebinarSharepointViewer/MeEwebinarSharepointViewerWebPart.js",
+          "manifest": "./src/webparts/meEwebinarSharepointViewer/MeEwebinarSharepointViewerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MeEwebinarSharepointViewerWebPartStrings": "lib/webparts/meEwebinarSharepointViewer/loc/{locale}.js"
+  }
+}
