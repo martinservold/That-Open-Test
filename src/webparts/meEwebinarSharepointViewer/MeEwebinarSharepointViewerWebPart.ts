@@ -7,9 +7,6 @@ export interface IMeEwebinarSharepointViewerWebPartProps {
 
 export default class MeEwebinarSharepointViewerWebPart extends BaseClientSideWebPart<IMeEwebinarSharepointViewerWebPartProps> {
 
-  private _isDarkTheme: boolean = false;
-  private _environmentMessage: string = '';
-
   public render(): void {
     this.domElement.innerHTML = `
     <div>Hello world</div>
