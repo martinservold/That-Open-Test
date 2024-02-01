@@ -49,7 +49,7 @@ ifcLoader.onIfcLoaded.add(async (model) => {
   propertiesProcessor.process(model);
   highlighter.events.select.onHighlight.add((selection) => {
     // const fragmentID = Object.keys(selection)[0];
-    // const expressID = Number([...selection[fragmentID]][0]);
+    // const expressID = Number([...selection.values()[fragmentID]][0]);
     // propertiesProcessor.renderProperties(model, expressID);
   });
   highlighter.update();

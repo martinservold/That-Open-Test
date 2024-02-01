@@ -1,6 +1,6 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "90072d8d-5727-489b-b272-a8eba30b18e1",
+  "id": "d448fc7a-360a-4deb-bb99-c7c75787bfe8",
   "alias": "MeEwebinarSharepointViewerWebPart",
   "componentType": "WebPart",
 
@@ -18,11 +18,11 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
     "group": { "default": "Advanced" },
-    "title": { "default": "MEEwebinar-sharepoint-viewer" },
-    "description": { "default": "MEEwebinar-sharepoint-viewer description" },
+    "title": { "default": "MeEwebinarSharepointViewer" },
+    "description": { "default": "MeEwebinarSharepointViewer description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "MEEwebinar-sharepoint-viewer"
+      "description": "MeEwebinarSharepointViewer"
     }
   }]
 }
